@@ -1,4 +1,4 @@
-- 由于没有公钥，无法验证下列签名……：  
+- 由于没有公钥，无法验证下列签名……
 错误提示如下：  
 W: GPG 错误：http://ppa.launchpad.net wily InRelease: 由于没有公钥，无法验证下列签名： NO_PUBKEY 7F73D5BEFC1B6133  
 解决办法：  
