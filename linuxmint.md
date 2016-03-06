@@ -16,7 +16,7 @@
     3. install参数用于添加一个命令的link值，相当于添加一个可用值，其中slave非常有用。  
         `sudo update-alternatives --install /usr/bin/java java /usr/local/jre1.6.0_20/bin/javac 100`  
         `sudo update-alternatives –install /usr/bin/java java /usr/local/jre1.6.0_20/bin/javac 100 –slave /usr/bin/javac javac /usr/local/jre1.6.0_20/bin/javac`  
-    4. remove参数用于删除一个命令的link值，其附带的slave也将一起删除。
+    4. remove参数用于删除一个命令的link值，其附带的slave也将一起删除。  
         `sudo update-alternatives –remove java /usr/local/jre1.6.0_20/bin/java` 
         
     eg :  
